@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="homepage.css">
+
+    </head>
+
+    <body>
+        <nav class="top-nav">
+            <ul>
+                <a href="index.html">
+                    <li class="active_page">home</li>
+                </a>
+                <a href="about_me.html">
+                    <li>about me</li>
+                </a>
+                <a href="contact.html">
+                    <li>contact</li>
+                </a>
+            </ul>
+        </nav>
+
+        <main>
+            <h1 id="title">naythen farr<h1>
+            <h2 id="subtitle">
+                computer science student && software developer
+            <h2>
+            </fieldset>
+            <h1>my projects</h1>
+            <div class="projects">
+              <button id="proj1_button">
+                  <div class="project">
+                      <img src="images/discord_icon.png" alt="Discord Icon" title="Discord Bot">
+                  </div>
+              </button>
+              <button id="proj2_button">
+                  <div class="project">
+                      <img src="images/reversi_icon.jpg" alt="Reversi" title="Reversi">
+                  </div>
+              </button>
+            </div>
+            <h1>check me out here:</h1>
+            <div class="links">
+                <a href="files/resume.pdf">
+                    <img id="link_size" src="images/resume_icon.png" alt="Resume" title="Resume">
+                </a>
+                <a href="https://github.com/NaythenF">
+                    <img id="link_size" src="images/github_icon.png" alt="GitHub" title="GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/naythen-farr-bb2055174/">
+                    <img id="link_size" src="images/linkedin_icon.png" alt="LinkedIn" title="LinkedIn">
+                </a>
+            </div>
+        </main>
+        <div id="proj1" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h1>Discord Bot</h1>
+                <img src="images/discord_example.png" alt="Embed displaying queue">
+                <p> This summer, I started writing a bot for a chatting service
+                    I use called Discord. I started by adding some simple
+                    features, like playing a game of Hangman and little commands
+                    such as one to randomly choose a choice from a list of given
+                    items. These were just fun little projects for my own
+                    enjoyment.
+                </p>
+                <p> Most recently, I implemented a queueing system for use in my
+                    office hours for my teaching assistant job. This was the
+                    the first time I had gotten to use my bot for a real
+                    application, and I really enjoyed it. It works for any number
+                    of TAs and students and shows the status of the queue in a
+                    nicely formatted embed.
+                </p>
+                <p> This was all written using the discord.py module. I hope to
+                    extend and add more functionality here in the future.
+                </p>
+                <p id="centered_p"> GitHub repository: </p>
+                <a href="https://github.com/NaythenF/discord_bot">
+                    <img id="link_size" src="images/github_icon.png" alt="Github Icon">
+                </a>
+
+            </div>
+        </div>
+        <div id="proj2" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h1>Reversi</h1>
+                <img id="shrink" src="images/reversi_example.png">
+                <p> In my freshman year, we created several games using a game
+                    engine created by our CS 211 professor. The most complicated
+                    one we were tasked to create was a game called Reversi, where
+                    to players are pitted against one another in a battle to
+                    secure the most board spaces by flipping each others chips
+                    to the opposite color.
+                </p>
+                <p> This game was programmed in C++ and allowed me to gain a lot
+                    of familiarity with the data structures native to the language,
+                    as well as the model, view, controller paradigm of game
+                    of game programming. It also allowed me to create an aesthetic
+                    interface for the players and work with a lower level graphics
+                    engine.
+                </p>
+            </div>
+        </div>
+    </body>
+    <script src="modal.js"> </script>
+</html>

@@ -1,0 +1,78 @@
+@font-face {
+    font-family: Noto;
+    src: url(fonts/NotoSansJP-Regular.otf)
+}
+
+body {
+    font-family: Noto;
+    background-color: #b0bec7;
+}
+
+main {
+    margin-top: 100px;
+}
+
+nav.top-nav {
+    background-color: #56144d;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    box-shadow: 0px 4px 4px #0003;
+    text-align: center;
+}
+
+nav.top-nav ul {
+    padding: 0px;
+}
+
+nav.top-nav li {
+    font-weight: bold;
+    color: #fffd;
+    padding: 15px;
+    display: inline-block;
+    user-select: none;
+    position: relative;
+    overflow: hidden;
+}
+
+nav.top-nav li:hover {
+    text-decoration: underline;
+}
+
+nav.top-nav li:active{
+    color: #fff;
+}
+
+.active_page {
+    background-color: #6c1960;
+    border-radius: 25%;
+}
+
+.container {
+	display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+#selfie {
+    width: 20%;
+	max-width: 300px;
+    max-height: 300px;
+	border: 2px solid black;
+}
+
+#info {
+	font-size: 22px;
+    width: 50%;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+a {
+	text-decoration: none;
+}

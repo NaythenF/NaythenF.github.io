@@ -1,0 +1,106 @@
+@font-face {
+    font-family: Noto;
+    src: url('fonts/NotoSansJP-Regular.otf')
+}
+
+body {
+    font-family: Noto;
+    background-color: #b0bec7;
+}
+
+main {
+    margin-top: 100px;
+    text-align: center;
+}
+
+nav.top-nav {
+    background-color: #56144d;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    box-shadow: 0px 4px 4px #0003;
+    text-align: center;
+}
+
+nav.top-nav ul {
+    padding: 0px;
+}
+
+nav.top-nav li {
+    font-weight: bold;
+    color: #fffd;
+    padding: 15px;
+    display: inline-block;
+    user-select: none;
+    position: relative;
+    overflow: hidden;
+}
+
+nav.top-nav li:hover {
+    text-decoration: underline;
+}
+
+nav.top-nav li:active{
+    color: #fff;
+}
+
+.active_page {
+    background-color: #6c1960;
+    border-radius: 25%;
+}
+
+/* The input code is from w3 schools contact form tutorial. */
+input[type=text], select, textarea {
+  	width: 100%;
+  	padding: 12px;
+  	border: 1px solid #ccc;
+  	border-radius: 4px;
+  	box-sizing: border-box;
+  	margin-top: 6px;
+  	margin-bottom: 16px;
+  	resize: vertical;
+}
+
+input[type=submit] {
+  	background-color: #56144d;
+	color: white;
+  	padding: 12px 20px;
+  	border: none;
+  	border-radius: 4px;
+  	cursor: pointer;
+}
+
+input[type=submit]:hover {
+  	background-color: #6c1960;
+}
+
+#message {
+	height: 200px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+}
+
+.form {
+	width: 40%;
+    border-radius: 5px;
+}
+
+.contact_info {
+    width: 30%;
+}
+
+.box {
+    background-color: #a0b0bb;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+a {
+	text-decoration: none;
+}
